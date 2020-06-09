@@ -9,4 +9,6 @@ public class Account {
     private String email;
     private String password;
 
+    public void changePassword(String oldPassword, String newPasssord) {
+    }
 }

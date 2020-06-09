@@ -6,4 +6,5 @@ import org.springframework.stereotype.Component;
 @Component
 public interface IAccountRepository {
     void save(Account account);
+    Account findByEmail(String email);
 }
